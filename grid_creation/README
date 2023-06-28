@@ -1,0 +1,38 @@
+# clement.fabien
+===== Xor_Neural =====
+1. enter 'make' in the terminal
+2. enter './main learning_rate number_of_attempts verbose' where
+	learning_rate is a float preferably between 0.1 and 0.3, number_of_attempts
+	an integer superior or equal to 10000 and verbose implies that every test made
+	by the neural network will be printed on the terminal. Don't enter the verbose
+	argumet if you only want the results to be printed.
+3. enter './main' for the program to load the values saved in trained_neural.txt
+	and print all the values of trained XOR function.
+
+===== Detection =====
+1. Enter 'make' in the terminal
+2. Run the program with './image_processing path/to/image.png'
+	where path/to/image.png is the path to the sudoku image you want to use for the detection.
+3. The image you decided to display will be shown on screen. Press any key to switch view from the original image
+	to the image that is grayscaled, blurred and has been edge detected by Sobel and Canny and is binarised.
+
+
+===== Rotations =====
+1. Enter 'Make' in the Terminal
+2. Run './image_processing library/image.jpg'It will Instantly Rotate the Image to its right position.
+3. Run './image_processing library/image_01.jpeg' To show that the rotations are fully functioning and it will not rotate a image that's already in its right position
+
+
+==== Binarization ====
+1. Enter the image_transformation/image/
+2. Enter 'Make' in the Terminal
+3. run './image_processing your_path_to_a_grid' and it will show the chosen image of a grid, and if
+   you push a button, it will binarize the image. If you push a button again, it will return to the normal image.
+
+
+==== Solver ====
+1. Enter the sudoku_solver/
+2. Enter 'make' in the terminal
+3. run './solver path_to_the_chosen_grid' and it will create a new texte file
+   of the same grid but solved
+4. The given grid must respect some rules (see the pdf of the project)
